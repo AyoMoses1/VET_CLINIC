@@ -1,8 +1,5 @@
 # curriculum-databases-projects-template
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
 
 ## Getting Started
 
@@ -63,17 +60,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet Clinic] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[Vet Clinic]** is a project designed to contain the data of animals, their species and owners in a database.
 
 ## 🛠 Built With <a name="built-with"></a>
-
+- sql
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -100,29 +93,22 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
+- **[Vet clinic database]**
+- **[Animals table]**
+- **[Owners Table]**
+- **[Species Table]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+- [Live Demo Link](will be displayed when available)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -141,6 +127,12 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+- copy [this link](https://github.com/Donmark2k/vet-clinic.git).
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write git clone git@github.com:Donmark2k/vet-clinic.git
+- go to the repository folder in your command prompt cd vet-clinic
+
 
 <!--
 Example commands:
@@ -150,44 +142,27 @@ Example commands:
   git clone git@github.com:myaccount/my-project.git
 ```
 --->
-
 ### Install
 
 Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+- Clone the git repo using this command: `https://github.com/AyoMoses1/vet-clinic.git`
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+  - 1 create vet_clinic database
+  - 2 Run  Queries.sql
+  - 3 to insert data into the table run data.sql
+  - 4 execute queries
 
 ### Run tests
 
-To run tests, run the following command:
+`No test for this project`
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
+### Deployment
+`No Deployment for this project`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### Deployment
 
 You can deploy this project using:
@@ -206,19 +181,13 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AyoMoses1](https://github.com/AyoMoses1)
+- Twitter: [@AyoMoses](https://twitter.com/Ayo_Moses1)
+- LinkedIn: [Ayo Moses](https://www.linkedin.com/in/ayomoses/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -226,11 +195,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[I will query the name in ascending order]**
+- [ ] **[I will add more animals to the table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,9 +215,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project...
+- Give me a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,9 +225,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to appreciate [Microverse](https://www.microverse.org/) for providing the resources and the platform for us to be a Professional full-stack developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -268,15 +234,14 @@ I would like to thank...
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[If you are asked to perform similar query on a different database, Can you do it?]**
 
-  - [Answer_1]
+  - [yes]
 
-- **[Question_2]**
+- **[Can you perform inner join]**
 
-  - [Answer_2]
+  - [yes]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
